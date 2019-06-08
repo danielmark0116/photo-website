@@ -1,0 +1,11 @@
+// BOOTSTRAP
+@import '../node_modules//bootstrap//scss/bootstrap.scss';
+
+// IMPORTS
+@import 'fonts';
+@import 'globals';
+@import 'typography';
+@import 'variables';
+
+// SECTIONS
+@import 'sections/header';

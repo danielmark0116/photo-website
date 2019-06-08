@@ -1,3 +1,4 @@
+{% include "partials/navbar.nunjucks" %}
 <h3>
-    First section
+    header
 </h3>

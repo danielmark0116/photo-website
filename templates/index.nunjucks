@@ -1,16 +1,17 @@
 {% extends 'base/layout.nunjucks' %}
 
-{% block navbar %}
-{% include "partials/navbar.nunjucks" %}
-{% endblock navbar %}
+
 
 
 
 {% block content %}
+    <header>
+        {% include "sections/header.nunjucks" %}
+    </header>
     <h1>
         Hello from nunjucks 22
     </h1>
     <section>
-        {% include "sections/header.nunjucks" %}
+        jakas sekcja przez include
     </section>
 {% endblock content %}
