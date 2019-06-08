@@ -1,0 +1,23 @@
+.custom-btn {
+  padding: 1rem 2rem;
+  background: $green;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  border: 1px solid $green;
+  color: $white;
+  border-radius: 5px;
+  @include textshadow(0.3);
+  @include boxshadow(0.2);
+  @include fade;
+  &:hover {
+    transform: scale(1.03);
+    border: 1px solid $green;
+    background: transparent;
+    @include textshadow(0.7);
+    @include boxshadow(0.5);
+  }
+  &:focus,
+  &:active {
+    outline: none !important;
+  }
+}

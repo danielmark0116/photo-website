@@ -1,0 +1,11 @@
+@mixin textshadow($opacity) {
+  text-shadow: 0 0 10px rgba($black, $opacity);
+}
+
+@mixin boxshadow($opacity) {
+  box-shadow: 0 0 10px rgba($black, $opacity);
+}
+
+@mixin fade {
+  transition: 0.3s ease-in-out;
+}

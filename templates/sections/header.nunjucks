@@ -1,4 +1,13 @@
-{% include "partials/navbar.nunjucks" %}
-<h3>
-    header
-</h3>
+<div class="container">
+    <div class="header-content">
+        <h1>
+            YOUR LIFE, A PHOTO
+        </h1>
+        <p>
+            print your life in a simple photo
+        </p>
+        <div class="d-flex justify-content-center mt-4">
+            <button class="custom-btn">GET STARTED</button>
+        </div>
+    </div>
+</div>

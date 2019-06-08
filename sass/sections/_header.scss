@@ -3,4 +3,26 @@ header {
   height: 80vh;
   background: url('../images/bg.jpg') bottom center;
   background-size: cover;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  & h1 {
+    @include textshadow(0.7);
+    letter-spacing: 7px;
+  }
+  & p {
+    text-align: center;
+    @include textshadow(0.7);
+    color: $white;
+    letter-spacing: 2px;
+  }
+  & .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  & .header-content {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
 }

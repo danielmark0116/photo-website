@@ -5,11 +5,13 @@
 
 
 {% block content %}
+
     <header>
+        {% include "partials/navbar.nunjucks" %}
         {% include "sections/header.nunjucks" %}
     </header>
     <h1>
-        Hello from nunjucks 22
+        Hello from nunjucks 22s
     </h1>
     <section>
         jakas sekcja przez include

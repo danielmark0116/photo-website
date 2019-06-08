@@ -6,6 +6,11 @@
 @import 'globals';
 @import 'typography';
 @import 'variables';
+@import 'mixins';
+
+// COMPONENTS
+@import 'components/navbar';
+@import 'components/buttons';
 
 // SECTIONS
 @import 'sections/header';
