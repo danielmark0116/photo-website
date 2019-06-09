@@ -1,14 +1,25 @@
 .custom-btn {
-  padding: 1rem 2rem;
+  padding: 1.3rem 2rem;
   background: $green;
   letter-spacing: 2px;
   word-spacing: 4px;
+  font-size: 0.7rem;
   border: 1px solid $green;
   color: $white;
   border-radius: 5px;
+  text-transform: uppercase;
   @include textshadow(0.3);
   @include boxshadow(0.2);
   @include fade;
+  &.solid {
+    &:hover {
+      transform: scale(1.03);
+      border: 1px solid $green;
+      background: $green;
+      @include textshadow(0.5);
+      @include boxshadow(0.3);
+    }
+  }
   &:hover {
     transform: scale(1.03);
     border: 1px solid $green;
@@ -19,5 +30,82 @@
   &:focus,
   &:active {
     outline: none !important;
+  }
+}
+
+.badge-btn {
+  @extend .custom-btn;
+  margin: 1rem 2rem;
+  padding: 0 0;
+  background: lighten($green, 10);
+  border: none;
+  height: 48px;
+  width: fit-content;
+  display: flex;
+  & .badge-text {
+    width: auto;
+    padding: 0 0;
+    margin: 0 0;
+    height: 100%;
+    align-self: center;
+    padding: 0 2rem;
+    min-width: 200px;
+  }
+
+  & .badge {
+    background: $green;
+    height: 48px;
+    width: 48px;
+    padding: 0 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & i {
+      font-size: 1rem;
+      text-shadow: none;
+    }
+  }
+  &:hover {
+    border: none !important;
+  }
+}
+
+.container-badges {
+  justify-content: center;
+}
+
+.slide-btn-group {
+  margin: 2rem 1rem 0 0;
+  & p {
+    margin: 0 0;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    // font-family: 'Gotham Rounded Book';
+    font-weight: 500;
+  }
+  & i {
+    font-size: 1.5rem;
+    padding: 0 10px 0 0;
+    &:last-of-type {
+      padding: 0 0 0 0;
+    }
+    @include fade;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+}
+
+@media (max-width: $bp-l) {
+  .badge-btn {
+    margin: 1rem auto;
+  }
+  .container-badges {
+    flex-direction: column;
+    justify-items: center;
   }
 }

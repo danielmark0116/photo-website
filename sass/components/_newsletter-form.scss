@@ -1,0 +1,42 @@
+$newsletter-border-radius: 5px;
+
+form.newsletter-form {
+  width: auto;
+  & .newsletter-input {
+    width: max-content;
+    background: $white;
+    display: flex;
+    margin: 0 auto;
+    border-radius: $newsletter-border-radius;
+    & input {
+      width: max-content;
+      margin: 1rem 2rem;
+      min-width: 250px;
+      border: none;
+      text-transform: uppercase;
+      color: $dark;
+      padding: 5px 2px;
+      &::placeholder {
+        text-transform: uppercase;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    & button {
+      background: $green;
+      border: none;
+      width: 4.5rem;
+      border-top-right-radius: $newsletter-border-radius;
+      border-bottom-right-radius: $newsletter-border-radius;
+      @include fade;
+      &:hover {
+        background: darken($green, 5);
+      }
+      & i {
+        color: $white;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

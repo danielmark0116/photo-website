@@ -1,4 +1,4 @@
-<nav class="navbar-custom">
+<nav class="navbar-custom" id="navbar">
   <div class="navbar-wrapper">
 
     <div class="navbar-custom-menu-list">

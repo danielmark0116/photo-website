@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/82543b5df3.js"></script>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Photo App</title>
 </head>
@@ -11,25 +13,221 @@
     
     
     
+
     <header>
-        <nav>
-    <h2>
-        navbar
-    </h2>
+        <nav class="navbar-custom" id="navbar">
+  <div class="navbar-wrapper">
+
+    <div class="navbar-custom-menu-list">
+      <ul class="menu-items">
+        <li class="menu-item">
+          <a href="" class="menu-link">home</a>
+        </li>
+        <li class="menu-item">
+          <a href="" class="menu-link">photoapp</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="navbar-custom-brand">
+      <img src="images/brand.png" alt="">
+    </div>
+
+    <div class="navbar-custom-menu-list">
+      <ul class="menu-items">
+        <li class="menu-item">
+          <a href="" class="menu-link">design</a>
+        </li>
+        <li class="menu-item">
+          <a href="" class="menu-link">download</a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
 </nav>
-<div class="container">
-    sdssss
+        <div class="container">
+    <div class="header-content">
+        <h1>
+            YOUR LIFE, A PHOTO
+        </h1>
+        <p>
+            print your life in a simple photo
+        </p>
+        <div class="d-flex justify-content-center mt-4">
+            <button class="custom-btn">GET STARTED</button>
+        </div>
+    </div>
+    <div class="header-content-bottom">
+        <a href="/">
+            <i class="fab fa-2x fa-twitter"></i>
+        </a>
+        <a href="/">
+           <i class="fab fa-2x fa-flickr"></i>
+        </a>
+        <a href="/">
+            <i class="fab fa-2x fa-dribbble"></i>
+        </a>
+    </div>
 </div>
     </header>
-    <h1>
-        Hello from nunjucks 22s
-    </h1>
-    <section>
-        jakas sekcja przez include
+    <section class="bg-grey">
+        <div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+            <h2>
+                Rappresent your life with a simple photo
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptate similique facere sapiente, nemo beatae hic numquam delectus <span>aliquid magnam</span> aperiam quibusdam ratione maxime exercitationem assumenda officia saepe quisquam? Velit!
+            </p>
+            <button class="custom-btn solid">
+                Get started
+            </button>
+        </div>
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-6 position-relative fixed-height">
+            <img src="images/hand.png" class="section-absolute hand" alt="">
+        </div>
+    </div>
+</div>
     </section>
+    <section class="bg-white">
+        <div class="container">
+    <div class="row d-flex">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-6 position-relative fixed-height order-2">
+            <img src="images/phone.png" class="section-absolute phone" alt="">
+        </div>
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-6 order-1">
+            <h2>
+                DESIGN
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptate similique facere sapiente, nemo beatae hic numquam delectus <span>aliquid magnam</span> aperiam quibusdam ratione maxime exercitationem assumenda officia saepe quisquam? Velit!
+            </p>
+            <button class="custom-btn solid">
+                learn more
+            </button>
+            <div class="slide-btn-group">
+                <p>01/05</p>
+                <i class="fas fa-chevron-left slide-btn"></i>
+                <i class="fas fa-chevron-right slide-btn"></i>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+    <section class="bg-grey">
+        <div class="container">
+    <div class="row d-flex justify-content-end mb-3">
+        <div class="slide-btn-group">
+            <i class="fas fa-chevron-left slide-btn"></i>
+            <i class="fas fa-chevron-right slide-btn"></i>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-4 community-tab">
+            <div>
+                <img src="images/brand-green.png" class="img-center" alt="">
+            </div>
+            <h3 class="text-center">
+                our community
+            </h3>
+            <p class="text-center small"> 
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+        </div>
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-4">
+            <img src="images/com1.jpg" class="img-auto" alt="">
+        </div>
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-4">
+            <img src="images/com2.jpg" class="img-auto" alt="">
+        </div>
+    </div>
+</div>
+    </section>
+    <section class="subscribe">
+        <div class="container d-flex flex-column justify-content-center">
+    <h2 class="newsletter">
+        subscribe to our community
+    </h2>
+    <form class="newsletter-form">
+        <div class="newsletter-input">
+            <input type="text" placeholder="your email">
+            <button>
+                <i class="fas fa-check"></i>
+            </button>
+        </div>
+    </form>
+</div>
+    </section>
+    <section class="bg-grey">
+        <div class="container">
+   <h3 class="text-center">
+        download it
+   </h3>
+   <h4 class="text-center">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum nulla expedita tempora odio ad hic dolore tempore earum, error, maiores dolor iure corporis eum voluptates corrupti reiciendis facilis quam pariatur.
+   </h4>
+   <div class="container container-badges d-flex justify-content-center">
+    <button class="badge-btn solid">
+        <div class="badge-text">
+            apple store
+        </div>
+        <div class="badge">
+            <i class="fab fa-apple"></i>
+        </div>
+    </button>
+    <button class="badge-btn solid">
+        <div class="badge-text">
+            play store
+        </div>
+        <div class="badge">
+            <i class="fab fa-android"></i>
+        </div>
+    </button>
+   </div>
+</div>
+    </section>
+    <footer class="bg-grey">
+        <div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-11">
+            <ul>
+                <li>
+                    <a href=".">
+                        credits
+                    </a>
+                </li>
+                <li>
+                    <a href=".">
+                        privacy
+                    </a>
+                </li>
+                <li>
+                    <a href=".">
+                        our team
+                    </a>
+                </li>
+            </ul>
+            <p>
+                Copyright by phototime - all rights reserved
+            </p>
+            <p>
+                Coded with <i class="em em-keyboard"></i> and <i class="em em-coffee"></i> by <a href="/" target="_blank">Daniel Grychtol</a>
+            </p>
+        </div>
+        
+        <div class="col col-12 col-sm-12 col-md-1 d-flex justify-content-center mt-3">
+            <img src="images/brand-green.png" class="img-auto" alt="">
+        </div>
+    </div>
+</div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/navbar.js"></script>
 </body>
 </html> 

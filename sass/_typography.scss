@@ -1,7 +1,52 @@
 h1 {
   text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: $green;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  &.newsletter {
+    color: $white;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+h3 {
+  @extend h2;
+  color: $dark;
+  margin: 1rem auto 1rem;
 }
 
 p {
-  color: red;
+  color: $black;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  & span {
+    font-weight: bold;
+  }
+  &.small {
+    font-size: 0.7rem;
+    letter-spacing: 0;
+    line-height: 0.8rem;
+    padding: 0 4rem;
+  }
+}
+
+h4 {
+  @extend p;
+  color: lighten($dark, 20);
+  margin: 1rem auto 1rem;
+  font-weight: 500;
 }

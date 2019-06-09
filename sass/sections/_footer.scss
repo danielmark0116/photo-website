@@ -1,0 +1,45 @@
+footer {
+  padding: 2rem 2rem;
+  & ul {
+    display: flex;
+    padding: 0 0;
+    margin: 0 0;
+    list-style-type: none;
+    & li {
+      padding: 0 0.5rem 0 0;
+      &:last-of-type {
+        &::after {
+          content: '';
+        }
+      }
+      &::after {
+        font-weight: bold;
+        color: $green;
+        content: '|';
+      }
+      & a {
+        color: $dark;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+          text-decoration: none;
+          color: $black;
+        }
+      }
+    }
+  }
+  & p {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: $bp-l) {
+  footer {
+    & ul {
+      justify-content: center;
+    }
+    & p {
+      text-align: center;
+    }
+  }
+}

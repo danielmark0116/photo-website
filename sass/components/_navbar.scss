@@ -11,6 +11,21 @@
   width: 100vw;
   background: transparent !important;
   color: $white !important;
+  z-index: 99;
+  @include fade;
+  @include navbar-opacity;
+
+  &.fixed {
+    @include navbar;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 0.5px solid rgba($grey, 0.3);
+    background: rgba($black, 0.2) !important;
+    & .navbar-wrapper {
+      padding: 1rem 0;
+    }
+  }
   & .navbar-brand {
     color: $white !important;
   }

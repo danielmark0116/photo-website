@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-11">
+            <ul>
+                <li>
+                    <a href=".">
+                        credits
+                    </a>
+                </li>
+                <li>
+                    <a href=".">
+                        privacy
+                    </a>
+                </li>
+                <li>
+                    <a href=".">
+                        our team
+                    </a>
+                </li>
+            </ul>
+            <p>
+                Copyright by phototime - all rights reserved
+            </p>
+            <p>
+                Coded with <i class="em em-keyboard"></i> and <i class="em em-coffee"></i> by <a href="/" target="_blank">Daniel Grychtol</a>
+            </p>
+        </div>
+        
+        <div class="col col-12 col-sm-12 col-md-1 d-flex justify-content-center mt-3">
+            <img src="images/brand-green.png" class="img-auto" alt="">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row d-flex">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-6 position-relative fixed-height order-2">
+            <img src="images/phone.png" class="section-absolute phone" alt="">
+        </div>
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-6 order-1">
+            <h2>
+                DESIGN
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptate similique facere sapiente, nemo beatae hic numquam delectus <span>aliquid magnam</span> aperiam quibusdam ratione maxime exercitationem assumenda officia saepe quisquam? Velit!
+            </p>
+            <button class="custom-btn solid">
+                learn more
+            </button>
+            <div class="slide-btn-group">
+                <p>01/05</p>
+                <i class="fas fa-chevron-left slide-btn"></i>
+                <i class="fas fa-chevron-right slide-btn"></i>
+            </div>
+        </div>
+    </div>
+</div>

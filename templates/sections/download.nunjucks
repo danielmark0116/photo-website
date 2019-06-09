@@ -1,0 +1,26 @@
+<div class="container">
+   <h3 class="text-center">
+        download it
+   </h3>
+   <h4 class="text-center">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum nulla expedita tempora odio ad hic dolore tempore earum, error, maiores dolor iure corporis eum voluptates corrupti reiciendis facilis quam pariatur.
+   </h4>
+   <div class="container container-badges d-flex justify-content-center">
+    <button class="badge-btn solid">
+        <div class="badge-text">
+            apple store
+        </div>
+        <div class="badge">
+            <i class="fab fa-apple"></i>
+        </div>
+    </button>
+    <button class="badge-btn solid">
+        <div class="badge-text">
+            play store
+        </div>
+        <div class="badge">
+            <i class="fab fa-android"></i>
+        </div>
+    </button>
+   </div>
+</div>

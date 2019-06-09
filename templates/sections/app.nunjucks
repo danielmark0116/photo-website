@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+            <h2>
+                Rappresent your life with a simple photo
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptate similique facere sapiente, nemo beatae hic numquam delectus <span>aliquid magnam</span> aperiam quibusdam ratione maxime exercitationem assumenda officia saepe quisquam? Velit!
+            </p>
+            <button class="custom-btn solid">
+                Get started
+            </button>
+        </div>
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-6 position-relative fixed-height">
+            <img src="images/hand.png" class="section-absolute hand" alt="">
+        </div>
+    </div>
+</div>

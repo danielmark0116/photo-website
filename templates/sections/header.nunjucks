@@ -10,4 +10,15 @@
             <button class="custom-btn">GET STARTED</button>
         </div>
     </div>
+    <div class="header-content-bottom">
+        <a href="/">
+            <i class="fab fa-2x fa-twitter"></i>
+        </a>
+        <a href="/">
+           <i class="fab fa-2x fa-flickr"></i>
+        </a>
+        <a href="/">
+            <i class="fab fa-2x fa-dribbble"></i>
+        </a>
+    </div>
 </div>

@@ -4,13 +4,17 @@
 // IMPORTS
 @import 'fonts';
 @import 'globals';
-@import 'typography';
 @import 'variables';
+@import 'typography';
 @import 'mixins';
 
 // COMPONENTS
 @import 'components/navbar';
 @import 'components/buttons';
+@import 'components/images';
+@import 'components/newsletter-form';
 
 // SECTIONS
 @import 'sections/header';
+@import 'sections/sections';
+@import 'sections/footer';

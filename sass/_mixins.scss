@@ -9,3 +9,29 @@
 @mixin fade {
   transition: 0.3s ease-in-out;
 }
+
+@mixin navbar {
+  animation: navbar 0.5s ease-out;
+}
+@mixin navbar-opacity {
+  animation: navbar-opacity 0.5s ease-out;
+}
+
+@keyframes navbar {
+  from {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes navbar-opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,38 @@
+img {
+  &.section-absolute {
+    position: absolute;
+  }
+  &.hand {
+    bottom: -450px;
+    right: 0;
+  }
+  &.phone {
+    bottom: -350px;
+    left: 0;
+  }
+  &.img-auto {
+    width: auto;
+    height: max-content;
+  }
+  &.img-center {
+    display: block;
+    margin: 1rem auto;
+  }
+}
+
+@media (max-width: $bp-l) {
+  img {
+    &.phone {
+      left: 50%;
+    }
+  }
+}
+
+@media (max-width: $bp-s) {
+  img {
+    &.phone {
+      bottom: -400px;
+      left: 30%;
+    }
+  }
+}

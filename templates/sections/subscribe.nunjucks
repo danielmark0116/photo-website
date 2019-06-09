@@ -1,0 +1,13 @@
+<div class="container d-flex flex-column justify-content-center">
+    <h2 class="newsletter">
+        subscribe to our community
+    </h2>
+    <form class="newsletter-form">
+        <div class="newsletter-input">
+            <input type="text" placeholder="your email">
+            <button>
+                <i class="fas fa-check"></i>
+            </button>
+        </div>
+    </form>
+</div>
