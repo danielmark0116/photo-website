@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   max-width: $bp-l;
-  padding: 3rem 0;
+  padding: 3rem 5rem;
 }
 
 .navbar-custom {
@@ -12,6 +12,9 @@
   background: transparent !important;
   color: $white !important;
   z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
   @include fade;
   @include navbar-opacity;
 
@@ -21,9 +24,16 @@
     top: 0;
     left: 0;
     border-bottom: 0.5px solid rgba($grey, 0.3);
-    background: rgba($black, 0.2) !important;
+    background: rgba($black, 0.7) !important;
+    z-index: 99;
+    &.transparent {
+      background: transparent !important;
+      border: none;
+    }
+
     & .navbar-wrapper {
-      padding: 1rem 0;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
     }
   }
   & .navbar-brand {
@@ -33,7 +43,7 @@
     color: $white !important;
   }
   &-brand {
-    padding: 0 5rem;
+    padding: 0 0;
     @include fade;
     &:hover {
       transform: scale(1.02);

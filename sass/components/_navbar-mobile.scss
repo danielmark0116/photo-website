@@ -1,0 +1,61 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba($dark, 1);
+  z-index: 98;
+  display: block;
+  transform: translateY(-100%);
+  @include fade;
+  &.show {
+    // display: block;
+    // @include fade;
+    transform: translateY(0);
+  }
+  &-list {
+    margin-top: 10rem;
+    list-style-type: none;
+    padding: 0 0;
+    & .menu-item {
+      text-align: center;
+      padding: 1rem 0;
+      & .menu-link {
+        color: $white;
+        text-transform: uppercase;
+        font-size: 2rem;
+        &:hover {
+          color: green;
+        }
+      }
+    }
+  }
+}
+
+.menu-btn {
+  width: 20px;
+  height: 20px;
+  background: red;
+  margin-left: auto;
+}
+
+@media (max-width: $bp-l) {
+  .navbar-wrapper {
+    padding: 1rem 1.5rem;
+  }
+  .navbar-custom {
+    // background: $grey !important;
+    background: rgba($black, 0.7) !important;
+    &.fixed {
+      //   background: $grey !important;
+      background: rgba($black, 0.7) !important;
+    }
+    &-brand {
+      transform: scale(0.8);
+    }
+  }
+  .navbar-custom-menu-list {
+    display: none;
+  }
+}

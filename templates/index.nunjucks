@@ -1,9 +1,9 @@
 {% extends 'base/layout.nunjucks' %}
 
 {% block content %}
-
+{% include "partials/navbar.nunjucks" %}
     <header>
-        {% include "partials/navbar.nunjucks" %}
+        
         {% include "sections/header.nunjucks" %}
     </header>
     <section class="bg-grey">

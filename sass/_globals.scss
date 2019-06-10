@@ -2,4 +2,7 @@ body {
   font-family: 'Gotham Rounded';
   font-style: normal;
   font-weight: 500;
+  &.block {
+    overflow: hidden;
+  }
 }

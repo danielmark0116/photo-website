@@ -26,6 +26,11 @@
         </li>
       </ul>
     </div>
-    
+    <div class="menu-btn" id="menu-trigger"></div>
   </div>
+  
 </nav>
+
+<div class="mobile-menu">
+  <ul class="mobile-menu-list"></ul>
+</div>
