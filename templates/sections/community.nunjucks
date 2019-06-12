@@ -6,7 +6,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col col-12 col-sm-12 col-md-12 col-lg-4 community-tab">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 px-1 py-1 community-tab">
             <div>
                 <img src="images/brand-green.png" class="img-center" alt="">
             </div>
@@ -17,10 +17,10 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
             </p>
         </div>
-        <div class="col col-12 col-sm-12 col-md-12 col-lg-4">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 px-1 py-1 d-flex justify-content-center">
             <img src="images/com1.jpg" class="img-auto" alt="">
         </div>
-        <div class="col col-12 col-sm-12 col-md-12 col-lg-4">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 px-1 py-1 d-flex justify-content-center">
             <img src="images/com2.jpg" class="img-auto" alt="">
         </div>
     </div>

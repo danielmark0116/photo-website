@@ -1,5 +1,5 @@
 <div class="container d-flex flex-column justify-content-center">
-    <h2 class="newsletter">
+    <h2 class="newsletter text-center">
         subscribe to our community
     </h2>
     <form class="newsletter-form">

@@ -1,0 +1,51 @@
+.menu-btn {
+  width: 35px;
+  height: auto;
+  background: transparent;
+  margin-left: auto;
+
+  & div {
+    width: 100%;
+    height: 4px;
+    background: darken($white, 10);
+    margin-bottom: 7px;
+    border-radius: 1px;
+    opacity: 1;
+    @include fade-short;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    & div {
+      background: $white;
+    }
+  }
+
+  &.active div {
+    &:nth-child(1) {
+      transform: translateY(10px) rotate(45deg);
+      opacity: 0;
+    }
+    &:nth-child(2) {
+      transform-origin: center center;
+      transform: rotate(45deg);
+      position: relative;
+      &::before {
+        transform-origin: center center;
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background: darken($white, 10);
+        border-radius: 1px;
+        transform: rotate(-90deg);
+        content: '';
+      }
+    }
+    &:nth-child(3) {
+      transform: translateY(-10px) rotate(45deg);
+      opacity: 0;
+    }
+  }
+}

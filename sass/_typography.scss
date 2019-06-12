@@ -50,3 +50,24 @@ h4 {
   margin: 1rem auto 1rem;
   font-weight: 500;
 }
+
+@media (max-width: $bp-s) {
+  h1 {
+    font-size: 1.6rem;
+  }
+  h2 {
+    &.newsletter {
+      font-size: 1.9rem;
+    }
+  }
+}
+@media (max-width: $bp-xs) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    &.newsletter {
+      font-size: 1.3rem;
+    }
+  }
+}

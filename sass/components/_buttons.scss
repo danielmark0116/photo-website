@@ -41,6 +41,7 @@
   border: none;
   height: 48px;
   width: fit-content;
+  max-width: 95%;
   display: flex;
   & .badge-text {
     width: auto;
@@ -49,7 +50,7 @@
     height: 100%;
     align-self: center;
     padding: 0 2rem;
-    min-width: 200px;
+    min-width: 100px;
   }
 
   & .badge {

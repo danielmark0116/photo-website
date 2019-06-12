@@ -26,7 +26,11 @@
         </li>
       </ul>
     </div>
-    <div class="menu-btn" id="menu-trigger"></div>
+    <div class="menu-btn" id="menu-trigger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
   </div>
   
 </nav>

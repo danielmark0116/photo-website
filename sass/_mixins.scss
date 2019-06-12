@@ -10,6 +10,10 @@
   transition: 0.3s ease-in-out;
 }
 
+@mixin fade-short {
+  transition: 0.2s ease-out;
+}
+
 @mixin navbar {
   animation: navbar 0.5s ease-out;
 }

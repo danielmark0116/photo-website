@@ -4,6 +4,7 @@ form.newsletter-form {
   width: auto;
   & .newsletter-input {
     width: max-content;
+    max-width: 95%;
     background: $white;
     display: flex;
     margin: 0 auto;
@@ -36,6 +37,16 @@ form.newsletter-form {
       & i {
         color: $white;
         font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: $bp-s) {
+  form.newsletter-form {
+    & .newsletter-input {
+      & input {
+        min-width: 150px;
       }
     }
   }

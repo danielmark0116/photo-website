@@ -7,6 +7,7 @@ footer {
     list-style-type: none;
     & li {
       padding: 0 0.5rem 0 0;
+
       &:last-of-type {
         &::after {
           content: '';
@@ -40,6 +41,19 @@ footer {
     }
     & p {
       text-align: center;
+      font-size: 60%;
+    }
+  }
+}
+@media (max-width: $bp-xs) {
+  footer {
+    & ul {
+      & li {
+        font-size: 70%;
+        & a {
+          // font-size: 60%;
+        }
+      }
     }
   }
 }

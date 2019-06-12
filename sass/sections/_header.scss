@@ -49,3 +49,11 @@ header {
     }
   }
 }
+
+@media (max-width: $bp-xs) {
+  .header-content-bottom {
+    & i {
+      transform: scale(0.7);
+    }
+  }
+}
