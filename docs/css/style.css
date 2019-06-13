@@ -3197,7 +3197,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 @font-face { font-family: 'Gotham Rounded'; src: url("./photo-website/vendor/fonts/gothamrounded/GothamRounded-Bold_1.eot"); src: url("./photo-website/vendor/fonts/gothamrounded/GothamRounded-Bold_1.eot?#iefix") format("embedded-opentype"), url("./photo-website/vendor/fonts/gothamrounded/GothamRounded-Bold_1.woff") format("woff"), url("./photo-website/vendor/fonts/gothamrounded/GothamRounded-Bold_1.ttf") format("truetype"), url("./photo-website/vendor/fonts/gothamrounded/GothamRounded-Bold_1.svg#GothamRounded-Bold") format("svg"); font-weight: bold; font-style: normal; }
 
-body { font-family: 'Gotham Rounded'; font-style: normal; font-weight: 500; }
+body { font-family: 'Nunito'; font-style: normal; font-weight: 500; }
 
 body.block { overflow: hidden; }
 

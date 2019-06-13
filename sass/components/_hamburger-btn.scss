@@ -3,6 +3,7 @@
   height: auto;
   background: transparent;
   margin-left: auto;
+  display: none;
 
   & div {
     width: 100%;
@@ -47,5 +48,11 @@
       transform: translateY(-10px) rotate(45deg);
       opacity: 0;
     }
+  }
+}
+
+@media (max-width: $bp-l) {
+  .menu-btn {
+    display: block;
   }
 }
