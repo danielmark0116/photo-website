@@ -13,7 +13,7 @@
     "build:autoprefixer": "autoprefixer-cli css/style.css",
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "build:nuncjuks": "gulp nunjucks",
-    "build:dist": "copyfiles *.html css/* images/* images/charts/* images/icons/* images/thumbs/* js/* vendor/* vendor/fonts/* *.ico docs",
+    "build:dist": "copyfiles *.html css/* images/* js/* vendor/fonts/gothamrounded/* *.ico docs",
     "watch": "npm run build && npm-run-all -p watch:*",
     "watch:browser-sync": "browser-sync start -w -s",
     "watch:sassprefixer": "onchange sass -- npm-run-all -s onchange:*",
