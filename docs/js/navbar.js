@@ -18,3 +18,10 @@ document.querySelector('#menu-trigger').addEventListener('click', function() {
   document.querySelector('body').classList.toggle('block');
   // document.querySelector('#navbar').classList.toggle('transparent');
 });
+
+document.querySelectorAll('.mobile-menu-list .menu-link').forEach(function(x) {
+  x.addEventListener('click', function() {
+    document.querySelector('#menu-trigger').classList.toggle('active');
+    document.querySelector('.mobile-menu').classList.toggle('show');
+  });
+});

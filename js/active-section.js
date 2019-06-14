@@ -17,15 +17,15 @@
 // console.log(window.pageYOffset + 0.5 * window.outerHeight);
 // console.log(document.body.clientHeight);
 // console.log(document.querySelector('[scroll="app"]').getBoundingClientRect());
-console.log(
-  document.querySelector('[scroll="app"]').getBoundingClientRect().top
-);
-console.log(
-  document.querySelector('[scroll="app"]').getBoundingClientRect().bottom
-);
+// console.log(
+//   document.querySelector('[scroll="app"]').getBoundingClientRect().top
+// );
+// console.log(
+//   document.querySelector('[scroll="app"]').getBoundingClientRect().bottom
+// );
 
 let middleScreen = 0.4 * window.outerHeight;
-console.log(middleScreen);
+// console.log(middleScreen);
 document.addEventListener('scroll', function() {
   document.querySelectorAll('[scroll]').forEach(function(x, index) {
     if (x.getBoundingClientRect().top < middleScreen) {
