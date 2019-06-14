@@ -4,10 +4,10 @@
     <div class="navbar-custom-menu-list">
       <ul class="menu-items">
         <li class="menu-item">
-          <a href="" class="menu-link">home</a>
+          <a href="#home" class="menu-link">home</a>
         </li>
         <li class="menu-item">
-          <a href="" class="menu-link">photoapp</a>
+          <a href="#app" class="menu-link">photoapp</a>
         </li>
       </ul>
     </div>
@@ -19,10 +19,10 @@
     <div class="navbar-custom-menu-list">
       <ul class="menu-items">
         <li class="menu-item">
-          <a href="" class="menu-link">design</a>
+          <a href="#design" class="menu-link">design</a>
         </li>
         <li class="menu-item">
-          <a href="" class="menu-link">download</a>
+          <a href="#download" class="menu-link">download</a>
         </li>
       </ul>
     </div>

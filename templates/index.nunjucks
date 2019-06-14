@@ -2,26 +2,26 @@
 
 {% block content %}
 {% include "partials/navbar.nunjucks" %}
-    <header>
+    <header scroll="home">
         
         {% include "sections/header.nunjucks" %}
     </header>
-    <section class="bg-grey">
+    <section class="bg-grey" scroll="app">
         {% include "sections/app.nunjucks" %}
     </section>
-    <section class="bg-white">
+    <section class="bg-white" scroll="design">
         {% include "sections/design.nunjucks" %}
     </section>
-    <section class="bg-grey">
+    <section class="bg-grey" scroll="community">
         {% include "sections/community.nunjucks" %}
     </section>
-    <section class="subscribe">
+    <section class="subscribe" scroll="subscribe">
         {% include "sections/subscribe.nunjucks" %}
     </section>
-    <section class="bg-grey">
+    <section class="bg-grey" scroll="download">
         {% include "sections/download.nunjucks" %}
     </section>
-    <footer class="bg-grey">
+    <footer class="bg-grey" scroll="footer">
         {% include "sections/footer.nunjucks" %}
     </footer>
 {% endblock content %}
