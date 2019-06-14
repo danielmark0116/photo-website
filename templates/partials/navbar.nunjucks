@@ -4,7 +4,7 @@
     <div class="navbar-custom-menu-list">
       <ul class="menu-items">
         <li class="menu-item">
-          <a href="#home" class="menu-link">home</a>
+          <a href="#home" class="menu-link active">home</a>
         </li>
         <li class="menu-item">
           <a href="#app" class="menu-link">photoapp</a>

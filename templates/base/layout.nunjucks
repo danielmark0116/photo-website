@@ -23,5 +23,6 @@
     <script src="js/script.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/scroll-to.js"></script>
+    <script src="js/active-section.js"></script>
 </body>
 </html> 

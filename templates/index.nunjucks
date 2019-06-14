@@ -12,16 +12,16 @@
     <section class="bg-white" scroll="design">
         {% include "sections/design.nunjucks" %}
     </section>
-    <section class="bg-grey" scroll="community">
+    <section class="bg-grey">
         {% include "sections/community.nunjucks" %}
     </section>
-    <section class="subscribe" scroll="subscribe">
+    <section class="subscribe">
         {% include "sections/subscribe.nunjucks" %}
     </section>
     <section class="bg-grey" scroll="download">
         {% include "sections/download.nunjucks" %}
     </section>
-    <footer class="bg-grey" scroll="footer">
+    <footer class="bg-grey">
         {% include "sections/footer.nunjucks" %}
     </footer>
 {% endblock content %}

@@ -3247,7 +3247,7 @@ h4 { color: #6a6a6a; margin: 1rem auto 1rem; font-weight: 500; }
 
 .navbar-custom-brand { padding: 0 0; transition: 0.3s ease-in-out; }
 
-.navbar-custom-brand:hover { transform: scale(1.02); cursor: pointer; }
+.navbar-custom-brand:hover { transform: scale(1.05); cursor: pointer; }
 
 .navbar-custom-menu-list { -ms-flex: 1; flex: 1; height: 100%; }
 
@@ -3257,9 +3257,13 @@ h4 { color: #6a6a6a; margin: 1rem auto 1rem; font-weight: 500; }
 
 .navbar-custom-menu-list .menu-item { display: -ms-inline-flexbox; display: inline-flex; -ms-flex-item-align: end; align-self: flex-end; padding: 0 1rem; }
 
-.navbar-custom-menu-list .menu-item .menu-link { color: #ffffff; text-transform: uppercase; padding: 1rem 2rem; letter-spacing: 4px; text-shadow: 0 0 10px rgba(19, 19, 19, 0.8); transition: 0.3s ease-in-out; }
+.navbar-custom-menu-list .menu-item .menu-link { color: #ffffff; text-transform: uppercase; padding: 1rem 2rem; letter-spacing: 4px; position: relative; text-shadow: 0 0 10px rgba(19, 19, 19, 0.8); transition: 0.3s ease-in-out; }
 
-.navbar-custom-menu-list .menu-item .menu-link:hover { text-decoration: none; text-shadow: 0 0 10px #131313; transform: scale(1.02); }
+.navbar-custom-menu-list .menu-item .menu-link.active::before { position: absolute; bottom: 0; left: 0; right: 0; margin: 0 auto; content: ''; width: 80%; height: 2px; background: rgba(255, 255, 255, 0.7); border-radius: 10px; transition: 0.3s ease-in-out; }
+
+.navbar-custom-menu-list .menu-item .menu-link:hover { text-decoration: none; text-shadow: 0 0 10px #131313; transform: scale(1.05); }
+
+.navbar-custom-menu-list .menu-item .menu-link:hover::before { background: white; }
 
 .mobile-menu { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(55, 55, 55, 0.98); z-index: 98; display: block; transform: translateY(-200%); overflow: scroll; transition: 0.3s ease-in-out; }
 
