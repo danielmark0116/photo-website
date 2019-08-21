@@ -15,7 +15,7 @@ document.querySelectorAll('.menu-item').forEach(x => {
 document.querySelector('#menu-trigger').addEventListener('click', function() {
   this.classList.toggle('active');
   document.querySelector('.mobile-menu').classList.toggle('show');
-  document.querySelector('body').classList.toggle('block');
+  // document.querySelector('body').classList.toggle('block');
   // document.querySelector('#navbar').classList.toggle('transparent');
 });
 
